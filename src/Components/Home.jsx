@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import Circle from "./Circle";
 import { HomeSocial } from "./HomeSocial";
 
 const Home = () => {
   return (
-    <Container className="home section bd_grid">
-      <Circle /> {/*circle render*/}
+    <Container className="home section bd_grid" id="home">
+      <Circle1 className="circle"></Circle1>
+      <Circle2 className="circle"></Circle2>
+      <Circle3 className="circle"></Circle3>
       <HomeData>
         <h2>
           Hi , I'am <br /> <span>Shakil Ahmed</span> <br /> Web Developer
@@ -78,6 +79,27 @@ const HomeData = styled.div`
       }
     }
   }
+`;
+const Circle1 = styled.div`
+  width: 300px;
+  height: 300px;
+  background: var(--circle-one);
+  top: 60%;
+  left: 0;
+`;
+const Circle2 = styled.div`
+  width: 250px;
+  height: 250px;
+  background: var(--circle-two);
+  top: 10%;
+  right: 0;
+`;
+const Circle3 = styled.div`
+  width: 200px;
+  height: 200px;
+  background: var(--circle-two);
+  top: 30%;
+  left: 0;
 `;
 
 const ContactButton = styled.a`
