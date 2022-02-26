@@ -130,9 +130,9 @@ const HomeSocialLink = styled.div`
   @media (min-width: 768px) {
     display: flex;
     flex-direction: row;
-    align-self: flex-end; 
+    align-self: flex-end;
     a {
-      margin-bottom: 0; 
+      margin-bottom: 0;
       margin-right: var(--margin-4);
     }
   }
