@@ -52,7 +52,7 @@ const Home = () => {
 export default Home;
 
 const Container = styled.section`
-  height: calc(100vh - 3rem);
+  height: 100vh;
   grid-gap: 1rem;
   margin: auto;
 `;
@@ -89,11 +89,10 @@ const HomeData = styled.div`
     }
     @media (min-width: 768px) {
       font-size: 3rem;
-      span{
-          font-size: 3.5rem;
+      span {
+        font-size: 3.5rem;
       }
     }
-
   }
 `;
 const ContactButton = styled.a`
@@ -110,8 +109,8 @@ const ContactButton = styled.a`
     transform: scaleX(1.2);
   }
   @media (min-width: 768px) {
-      margin-bottom: 2rem;
-    }
+    margin-bottom: 2rem;
+  }
 `;
 
 const HomeSocialLink = styled.div`
@@ -125,7 +124,16 @@ const HomeSocialLink = styled.div`
     transition: 0.3s;
     &:hover {
       color: var(--fast-color);
-      transform: scale(1.3);
+      transform: scale(1.4);
+    }
+  }
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end; 
+    a {
+      margin-bottom: 0; 
+      margin-right: var(--margin-4);
     }
   }
 `;
@@ -170,16 +178,16 @@ const HomeImg = styled.div`
     right: 0;
     bottom: 30%;
     filter: drop-shadow(0 5px 20px #2cc245);
-}
-@media (max-width: 350px) {
-    width: 260px;
-}
-@media (min-width: 550px) {
-  width: 350px;
-}
+  }
+  @media (max-width: 350px) {
+    width: 250px;
+  }
+  @media (min-width: 550px) {
+    width: 350px;
+  }
   @media (min-width: 768px) {
-      width: 400px;
-    }
+    width: 450px;
+  }
 `;
 const Box = styled.div`
   position: absolute;
@@ -189,17 +197,25 @@ const Box = styled.div`
   background: #fff;
   display: flex;
   align-items: center;
-  img{
-      min-width: 30px;
-      min-height: 30px;
-      width: 40px;
-      height: 40px;
-      background: #fef4df;
-      border-radius: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-left: 5px;
+  img {
+    min-width: 30px;
+    min-height: 30px;
+    width: 40px;
+    height: 40px;
+    background: #fef4df;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+  }
+  @media (min-width: 768px) {
+    width: 200px;
+    height: 60px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
   }
 `;
 const Box1 = styled(Box)`
@@ -211,14 +227,20 @@ const Box2 = styled(Box)`
   left: 0;
 `;
 const contant = styled.div`
-margin-left: 10px;
-    h2{
-        font-size: 12px;
-        font-weight: 800;
+  margin-left: 10px;
+  h2 {
+    font-size: 12px;
+    font-weight: 800;
+    @media (min-width: 768px) {
+      font-size: 18px;
     }
-    p{
-        font-size: 10px;
+  }
+  p {
+    font-size: 10px;
+    @media (min-width: 768px) {
+      font-size: 14px;
     }
-`
+  }
+`;
 const Contant1 = styled(contant)``;
 const Contant2 = styled(contant)``;
