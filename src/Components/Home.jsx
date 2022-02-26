@@ -80,13 +80,14 @@ const Circle3 = styled.div`
 const HomeData = styled.div`
   align-self: center;
   h2 {
-    font-size: var(--big-font-size);
     margin-bottom: var(--margin-5);
+    font-size: var(--big-font-size);
     span {
       color: var(--fast-color);
       font-size: 3rem;
     }
     @media (min-width: 768px) {
+      margin-top: var(--margin-6);
       font-size: 3rem;
       span {
         font-size: 3.5rem;
@@ -182,10 +183,10 @@ const HomeImg = styled.div`
     width: 250px;
   }
   @media (min-width: 550px) {
-    width: 350px;
+    width: 400px;
   }
   @media (min-width: 768px) {
-    width: 450px;
+    width: 500px;
   }
 `;
 const Box = styled.div`
