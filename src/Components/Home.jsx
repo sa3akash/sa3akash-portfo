@@ -38,7 +38,7 @@ const Home = () => {
           </Contant1>
         </Box1>
         <Box2>
-          <img src="/img/smiley_1.svg" alt="BoxSmiley" className="boxSmiley" />
+          <img src="/img/medal.svg" alt="BoxSmiley" className="boxSmiley" />
           <Contant2>
             <h2>Awards</h2>
             <p>Type some contant over here</p>
@@ -169,6 +169,8 @@ const Box = styled.div`
   height: 50px;
   border-radius: 20px;
   background: #fff;
+  display: flex;
+  align-items: center;
   img{
       min-width: 30px;
       min-height: 30px;
@@ -179,6 +181,7 @@ const Box = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-left: 5px;
   }
 `;
 const Box1 = styled(Box)`
@@ -189,5 +192,15 @@ const Box2 = styled(Box)`
   bottom: 25%;
   left: 0;
 `;
-const Contant1 = styled.div``;
-const Contant2 = styled.div``;
+const contant = styled.div`
+margin-left: 10px;
+    h2{
+        font-size: 12px;
+        font-weight: 800;
+    }
+    p{
+        font-size: 10px;
+    }
+`
+const Contant1 = styled(contant)``;
+const Contant2 = styled(contant)``;

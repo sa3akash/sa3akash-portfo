@@ -78,6 +78,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: contain;
 }
 .bd_grid {
   max-width: 1024px;
