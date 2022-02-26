@@ -52,7 +52,7 @@ const HeaderContainer = styled.div`
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 
   nav {
-    max-width: 1024px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     height: var(--header-height);

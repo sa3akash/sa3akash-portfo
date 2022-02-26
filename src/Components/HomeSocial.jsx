@@ -11,17 +11,17 @@ const HomeSocial = [
   {
     id: 1,
     iconName: <FaFacebookF />,
-    iconLink: "www.facebook.com/sa2avro",
+    iconLink: "https://www.facebook.com/sa3akash",
   },
   {
     id: 2,
     iconName: <FaTwitter />,
-    iconLink: "#",
+    iconLink: "https://www.twitter.com/sa3akash",
   },
   {
     id: 3,
     iconName: <FaInstagram />,
-    iconLink: "#",
+    iconLink: "https://www.instagram.com/sa3akash",
   },
   {
     id: 4,
@@ -31,12 +31,12 @@ const HomeSocial = [
   {
     id: 5,
     iconName: <FaLinkedin />,
-    iconLink: "#",
+    iconLink: "https://www.linkedin.com/in/sa3akash",
   },
   {
     id: 6,
     iconName: <FaGithub />,
-    iconLink: "#",
+    iconLink: "https://www.github.com/sa3akash",
   },
 ];
 

@@ -93,8 +93,16 @@ const HomeData = styled.div`
         font-size: 3.5rem;
       }
     }
+    @media (min-width: 1080px) {
+      font-size: 4rem;
+      span {
+        font-size: 5rem;
+      }
   }
+}
 `;
+
+
 const ContactButton = styled.a`
   display: inline-block;
   color: #fff;
@@ -108,9 +116,7 @@ const ContactButton = styled.a`
   &:hover {
     transform: scaleX(1.2);
   }
-  @media (min-width: 768px) {
-    margin-bottom: 2rem;
-  }
+ 
 `;
 
 const HomeSocialLink = styled.div`
@@ -183,9 +189,12 @@ const HomeImg = styled.div`
     width: 250px;
   }
   @media (min-width: 550px) {
-    width: 400px;
+    width: 350px;
   }
   @media (min-width: 768px) {
+    width: 450px;
+  }
+  @media (min-width: 1080px) {
     width: 500px;
   }
 `;
