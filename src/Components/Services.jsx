@@ -17,6 +17,7 @@ export default Services;
 
 const ServicesContainer = styled.div`
     height: 100vh;
+    margin: auto;
 `;
 const Circle1 = styled.div`
   width: 250px;
