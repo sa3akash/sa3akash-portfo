@@ -1,13 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import Circle from "./Circle";
 import { HomeSocial } from "./HomeSocial";
 
 const Home = () => {
   return (
     <Container className="home section bd_grid">
-      <Circle1 className="circle"></Circle1>
-      <Circle2 className="circle"></Circle2>
-      <Circle3 className="circle"></Circle3>
+      <Circle /> {/*circle render*/}
       <HomeData>
         <h2>
           Hi , I'am <br /> <span>Shakil Ahmed</span> <br /> Web Developer
@@ -55,27 +54,6 @@ const Container = styled.section`
   height: 100vh;
   margin: auto;
 `;
-const Circle1 = styled.div`
-  width: 300px;
-  height: 300px;
-  background: var(--circle-one);
-  top: 60%;
-  left: 0;
-`;
-const Circle2 = styled.div`
-  width: 250px;
-  height: 250px;
-  background: var(--circle-two);
-  top: 10%;
-  right: 0;
-`;
-const Circle3 = styled.div`
-  width: 200px;
-  height: 200px;
-  background: var(--circle-two);
-  top: 30%;
-  left: 0;
-`;
 
 const HomeData = styled.div`
   align-self: center;
@@ -98,10 +76,9 @@ const HomeData = styled.div`
       span {
         font-size: 5rem;
       }
+    }
   }
-}
 `;
-
 
 const ContactButton = styled.a`
   display: inline-block;
@@ -116,7 +93,6 @@ const ContactButton = styled.a`
   &:hover {
     transform: scaleX(1.2);
   }
- 
 `;
 
 const HomeSocialLink = styled.div`

@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import Home from "./Home";
+import Services from "./Services";
 
 const MainContainer = () => {
   return (
     <Container>
       <Home />
+      <Services />
     </Container>
   );
 };
