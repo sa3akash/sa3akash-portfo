@@ -31,14 +31,14 @@ const Home = () => {
         <img src="/img/star_3.svg" alt="star_3" className="star_3" />
 
         <Box1>
-          {/* <img src="/img/smiley_1.svg" alt="BoxSmiley" className="boxSmiley" /> */}
+          <img src="/img/smiley_1.svg" alt="BoxSmiley" className="boxSmiley" />
           <Contant1>
             <h2>Ui/Ux</h2>
             <p>Type some contant over here</p>
           </Contant1>
         </Box1>
         <Box2>
-          {/* <img src="/img/smiley_1.svg" alt="BoxSmiley" className="boxSmiley" /> */}
+          <img src="/img/smiley_1.svg" alt="BoxSmiley" className="boxSmiley" />
           <Contant2>
             <h2>Awards</h2>
             <p>Type some contant over here</p>
@@ -169,6 +169,17 @@ const Box = styled.div`
   height: 50px;
   border-radius: 20px;
   background: #fff;
+  img{
+      min-width: 30px;
+      min-height: 30px;
+      width: 40px;
+      height: 40px;
+      background: #fef4df;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
 `;
 const Box1 = styled(Box)`
   top: 20%;
