@@ -7,6 +7,8 @@ const Services = () => {
     <ServicesContainer className="section bd_grid" id="services">
      <Circle1 className="circle"></Circle1>
       <Circle2 className="circle"></Circle2>
+
+      <h2 className="section_title">Services</h2>
     </ServicesContainer>
   );
 };
