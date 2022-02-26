@@ -53,7 +53,6 @@ export default Home;
 
 const Container = styled.section`
   height: 100vh;
-  grid-gap: 1rem;
   margin: auto;
 `;
 const Circle1 = styled.div`
