@@ -135,7 +135,7 @@ code {
   font-size: var(--h2-font-size);
   color: var(--fast-color);
   margin-top: var(--margin-2);
-  margin-bottom: var(--margin-);
+  margin-bottom: var(--margin-4);
   text-align: center;
 }
 .section_title::after {
@@ -151,7 +151,22 @@ code {
   background-color: var(--fast-color);
 }
 .section {
-  padding-top: 3re;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   position: relative;
+}
+
+
+@media (min-width: 768px) {
+  .section{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+  .section_title{
+    margin-bottom: var(--margin-6);
+  }
+  .section_title::after{
+    width: 80px;
+    top: 3rem;
+  }
 }

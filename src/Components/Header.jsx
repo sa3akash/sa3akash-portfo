@@ -50,7 +50,7 @@ const HeaderContainer = styled.div`
   z-index: var(--z-fixed);
   background-color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
-
+  
   nav {
     max-width: 1024px;
     width: 100%;
@@ -61,6 +61,7 @@ const HeaderContainer = styled.div`
     justify-content: space-between;
     font-weight: var(--font-semi);
     font-family: var(--header-font);
+   
     div {
       display: none;
     }
@@ -131,6 +132,11 @@ const HeaderContainer = styled.div`
       }
     }
   }
+  @media (min-width: 768px) {
+      nav{
+        height: 4rem;
+      }
+    }
 `;
 
 const NavLogo = styled.a`

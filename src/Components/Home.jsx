@@ -80,7 +80,6 @@ const Circle3 = styled.div`
 
 const HomeData = styled.div`
   align-self: center;
-  margin-top: 3rem;
   h2 {
     font-size: var(--big-font-size);
     margin-bottom: var(--margin-5);
@@ -88,6 +87,13 @@ const HomeData = styled.div`
       color: var(--fast-color);
       font-size: 3rem;
     }
+    @media (min-width: 768px) {
+      font-size: 3rem;
+      span{
+          font-size: 3.5rem;
+      }
+    }
+
   }
 `;
 const ContactButton = styled.a`
@@ -103,6 +109,9 @@ const ContactButton = styled.a`
   &:hover {
     transform: scaleX(1.2);
   }
+  @media (min-width: 768px) {
+      margin-bottom: 2rem;
+    }
 `;
 
 const HomeSocialLink = styled.div`
@@ -161,7 +170,16 @@ const HomeImg = styled.div`
     right: 0;
     bottom: 30%;
     filter: drop-shadow(0 5px 20px #2cc245);
-  }
+}
+@media (max-width: 350px) {
+    width: 260px;
+}
+@media (min-width: 550px) {
+  width: 350px;
+}
+  @media (min-width: 768px) {
+      width: 400px;
+    }
 `;
 const Box = styled.div`
   position: absolute;
