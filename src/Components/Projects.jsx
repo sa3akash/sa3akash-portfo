@@ -47,12 +47,21 @@ const ProjectsContainer = styled.div`
 `;
 const ProjectImg = styled.div`
     width: 100%;
-    height: 230px;
+    height: 210px;
     margin: 15px 0;
     overflow: hidden;
+    box-shadow: 0 4px 25px rgba(14,36,49, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover{
+        img{
+            transform: scale(1.2);
+        }
+    }
     img {
     width: 100%;
     object-fit: cover;
+    transition:all 1s;
   }
   @media (min-width: 768px) {
     width: calc(100%/2 - 25px);
