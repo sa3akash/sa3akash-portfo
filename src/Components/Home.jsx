@@ -161,6 +161,9 @@ const HomeImg = styled.div`
     top: 5%;
     left: 5%;
     width: 50px;
+    @media (max-width: 400px) {
+      display: none;
+    }
   }
   .star {
     position: absolute;

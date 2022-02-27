@@ -1,13 +1,17 @@
 import React from "react";
 import styled from "styled-components";
+import About from "./About";
 import Home from "./Home";
 import Services from "./Services";
+import Work from "./Work";
 
 const MainContainer = () => {
   return (
     <Container>
       <Home />
       <Services />
+      <Work />
+      <About />
     </Container>
   );
 };

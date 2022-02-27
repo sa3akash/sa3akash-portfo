@@ -11,26 +11,26 @@ const Services = () => {
       <h2 className="section_title">Services</h2>
       <ServiceContainer className="bd_grid serviceContainer">
         <ServiceImg>
-            <Box
-            imgName='/img/smiley_1.svg' 
-            boxName='Design' 
-            contant=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas sed aliquam cupiditate laboriosam voluptatem eveniet consequatur?'
-            />
-            <Box
-            imgName='/img/smiley_2.svg' 
-            boxName='Developer' 
-            contant=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas sed aliquam cupiditate laboriosam voluptatem eveniet consequatur?'
-            />
-            <Box
-            imgName='/img/smiley_3.svg' 
-            boxName='Ui/UX' 
-            contant=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas sed aliquam cupiditate laboriosam voluptatem eveniet consequatur?'
-            />
-            <Box
-            imgName='/img/smiley_1.svg' 
-            boxName='Mobile App' 
-            contant=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas sed aliquam cupiditate laboriosam voluptatem eveniet consequatur?'
-            />
+          <Box
+            imgName="/img/smiley_1.svg"
+            boxName="Design"
+            contant=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas sed aliquam cupiditate laboriosam voluptatem eveniet consequatur?"
+          />
+          <Box
+            imgName="/img/smiley_2.svg"
+            boxName="Developer"
+            contant=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas sed aliquam cupiditate laboriosam voluptatem eveniet consequatur?"
+          />
+          <Box
+            imgName="/img/smiley_3.svg"
+            boxName="Ui/UX"
+            contant=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas sed aliquam cupiditate laboriosam voluptatem eveniet consequatur?"
+          />
+          <Box
+            imgName="/img/smiley_1.svg"
+            boxName="Mobile App"
+            contant=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas sed aliquam cupiditate laboriosam voluptatem eveniet consequatur?"
+          />
         </ServiceImg>
         <ServiceText>
           <h2>
@@ -69,37 +69,36 @@ const ServiceContainer = styled.div`
   row-gap: 2rem;
   text-align: center;
   @media (min-width: 1080px) {
-       flex-direction: row;
-    }
+    flex-direction: row;
+  }
 `;
 
 const ServiceImg = styled.div`
-    justify-self: center;
-    @media (min-width: 768px) {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-      
-    }
-    @media (min-width: 1080px) {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
+  justify-self: center;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  @media (min-width: 1080px) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 `;
 
 const ServiceText = styled.div`
-    h2{
-        font-size: var(--big-font-size);
-        margin-bottom: var(--margin-2);
-        span{
-            color: var(--fast-color);
-            font-size: 3rem;
-        }
+  h2 {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--margin-2);
+    span {
+      color: var(--fast-color);
+      font-size: 3rem;
     }
-    p{
-        margin-bottom: var(--margin-3);
-    }
+  }
+  p {
+    margin-bottom: var(--margin-3);
+  }
 `;
 const CvDownload = styled.a`
   display: inline-block;
