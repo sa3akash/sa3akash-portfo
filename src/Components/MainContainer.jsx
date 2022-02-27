@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import About from "./About";
 import Home from "./Home";
+import Projects from "./Projects";
 import Services from "./Services";
 import Work from "./Work";
 
@@ -12,6 +13,7 @@ const MainContainer = () => {
       <Services />
       <Work />
       <About />
+      <Projects />
     </Container>
   );
 };
