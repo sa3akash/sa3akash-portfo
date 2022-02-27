@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import About from "./About";
+import Contact from "./Contact";
 import Home from "./Home";
 import Projects from "./Projects";
 import Services from "./Services";
@@ -14,6 +15,7 @@ const MainContainer = () => {
       <Work />
       <About />
       <Projects />
+      <Contact />
     </Container>
   );
 };
@@ -32,6 +34,10 @@ const Container = styled.div`
     rgba(255, 255, 255, 0.6) 100%
   );
   z-index: -1;
+  @media (max-width: 300px) {
+    width: 120%;
+    overflow-x: hidden;
+  }
 `;
 
 // 2 38 50
