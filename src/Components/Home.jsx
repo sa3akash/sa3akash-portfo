@@ -12,7 +12,7 @@ const Home = () => {
         <h2>
           Hi , I'am <br /> <span>Shakil Ahmed</span> <br /> Web Developer
         </h2>
-        <ContactButton href="#">Contact Me</ContactButton>
+        <ContactButton href="#contact">Contact Me</ContactButton>
       </HomeData>
       <HomeSocialLink>
         {HomeSocial &&
