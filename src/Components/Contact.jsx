@@ -103,4 +103,7 @@ div{
     flex-direction: column;
     margin: auto;
 }
+@media (min-width: 1080px) {
+    width: 660px;
+}
 `;

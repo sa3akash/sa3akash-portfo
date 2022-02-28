@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "./Footer";
 import Home from "./Home";
 import Projects from "./Projects";
 import Services from "./Services";
@@ -16,6 +17,7 @@ const MainContainer = () => {
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </Container>
   );
 };
