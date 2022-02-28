@@ -5,7 +5,7 @@ import { HomeSocial } from "./HomeSocial";
 const Home = () => {
 
   return (
-    <Container className="home section bd_grid" id="home">
+    <Container className="home section bd_grid">
       <Circle1 className="circle"></Circle1>
       <Circle2 className="circle"></Circle2>
       <Circle3 className="circle"></Circle3>
