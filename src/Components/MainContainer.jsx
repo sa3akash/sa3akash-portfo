@@ -8,8 +8,11 @@ import Projects from "./Projects";
 import Services from "./Services";
 import Work from "./Work";
 
+
 const MainContainer = () => {
   return (
+ 
+ 
     <Container>
       <Home />
       <Services />
@@ -19,6 +22,7 @@ const MainContainer = () => {
       <Contact />
       <Footer />
     </Container>
+
   );
 };
 

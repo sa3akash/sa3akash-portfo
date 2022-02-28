@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { HomeSocial } from "./HomeSocial";
 
 const Home = () => {
+
   return (
     <Container className="home section bd_grid" id="home">
       <Circle1 className="circle"></Circle1>
